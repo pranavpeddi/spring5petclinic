@@ -1,11 +1,11 @@
 package com.pranavSpringFramework.Spring.Pet.Clinic.models;
 
-import java.security.acl.Owner;
+
 import java.time.LocalDate;
 
 public class pet extends BaseEntity {
     private PetType petType;
-    private Owner owner;
+    private owner owner;
     private LocalDate birthdate;
 
     public PetType getPetType() {
@@ -16,11 +16,11 @@ public class pet extends BaseEntity {
         this.petType = petType;
     }
 
-    public Owner getOwner() {
+    public owner getOwner() {
         return owner;
     }
 
-    public void setOwner(Owner owner) {
+    public void setOwner(owner owner) {
         this.owner = owner;
     }
 

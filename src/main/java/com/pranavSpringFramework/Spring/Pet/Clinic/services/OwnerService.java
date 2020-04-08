@@ -1,10 +1,12 @@
 package com.pranavSpringFramework.Spring.Pet.Clinic.services;
 
-import java.security.acl.Owner;
+
+import com.pranavSpringFramework.Spring.Pet.Clinic.models.owner;
+
 import java.util.Set;
 
-public interface OwnerService extends CrudService<Owner,Long> {
-    Owner findByLastName(String LastName);
+public interface OwnerService extends CrudService<owner ,Long> {
+    owner findByLastName(String LastName);
 
 
 }
